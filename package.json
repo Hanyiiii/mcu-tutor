@@ -1,0 +1,20 @@
+{
+  "name": "mcu-tutor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "芯师傅 ChipMaster —— 单片机 AI 学习助手（2026 重庆市AI大模型创新应用大赛参赛作品）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/local-server.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.0"
+  }
+}
