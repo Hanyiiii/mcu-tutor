@@ -35,8 +35,8 @@ export function mdToHtml(text) {
   html = html.replace(/^## (.*)$/gm, '<h3>$1</h3>')
   // 分隔线
   html = html.replace(/^---+\s*$/gm, '<hr>')
-  // 列表
-  html = html.replace(/^(?:[-*]|\d+\.) (.+)$/gm, '<li>$1</li>')
+  // 列表（容忍行首缩进，兼容大模型输出）
+  html = html.replace(/^(\s*)(?:[-*]|\d+\.) (.+)$/gm, '<li>$2</li>')
   html = html.replace(/(<li>[\s\S]*?<\/li>)(?!\s*<li>)/g, '<ul>$1</ul>')
   // 段落与换行
   html = html.replace(/\n{2,}/g, '</p><p>')
