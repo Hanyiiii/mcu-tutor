@@ -111,7 +111,11 @@ async function send(text) {
       aiMsg.content = j.content || '（空响应）'
     }
   } catch (e) {
-    aiMsg.content = `⚠️ **出错了**：${e.message || e}
+    let msg = e.message || e
+    if (msg === 'Failed to fetch') {
+      msg = '无法连接后端服务（服务未启动或网络中断），请稍后重试'
+    }
+    aiMsg.content = `⚠️ **出错了**：${msg}
 
 > 提示：本地开发需先运行 \`npm run server\` 启动后端，并在项目根目录配置 \`.env.local\`（参考 .env.local.example）。`
   } finally {

@@ -1,0 +1,129 @@
+{
+  "image": "C:\\Users\\31170\\.zcode\\cli\\image-cache\\sess_f72a6607-5d3c-4830-8af5-b73403ac9f3d\\image-eead714d07f5a66b3a4a40c8231e489f.png",
+  "provider": "openai",
+  "result": {
+    "summary": "The image shows a chat interface with a conversation about单片机AI私教（Single Chip Microcomputer AI Private Tutor）and programming assistance.",
+    "ocr": {
+      "full_text": "你好，我是芯师傅👋 你的单片机 AI 私教。\n我可以帮你：\n- 答疑解惑：寄存器、中断、串口、Keil 报错......随时问\n- 写代码：给出可直接编译的 Keil C51 例程\n- 指导仿真：Proteus 元件选型、接线、加载 hex\n试试问我：「流水灯怎么写？」「Keil 报错 C202 是什么意思？」「定时器中断怎么配置？」\n出错啦：Failed to fetch\n> 提示：本地开发需先运行 npm run server 启动后端，并在项目根目录配置 .env.local（参考 .env.local.example）。",
+      "lines": [
+        {
+          "text": "你好，我是芯师傅👋 你的单片机 AI 私教。",
+          "language": "zh"
+        },
+        {
+          "text": "我可以帮你：",
+          "language": "zh"
+        },
+        {
+          "text": "- 答疑解惑：寄存器、中断、串口、Keil 报错......随时问",
+          "language": "zh"
+        },
+        {
+          "text": "- 写代码：给出可直接编译的 Keil C51 例程",
+          "language": "zh"
+        },
+        {
+          "text": "- 指导仿真：Proteus 元件选型、接线、加载 hex",
+          "language": "zh"
+        },
+        {
+          "text": "试试问我：「流水灯怎么写？」「Keil 报错 C202 是什么意思？」「定时器中断怎么配置？」",
+          "language": "zh"
+        },
+        {
+          "text": "出错啦：Failed to fetch",
+          "language": "zh"
+        },
+        {
+          "text": "> 提示：本地开发需先运行 npm run server 启动后端，并在项目根目录配置 .env.local（参考 .env.local.example）。",
+          "language": "zh"
+        }
+      ]
+    },
+    "layout": {
+      "regions": [
+        {
+          "type": "paragraph",
+          "reading_order": 1,
+          "text": "你好，我是芯师傅👋 你的单片机 AI 私教。",
+          "language": "zh"
+        },
+        {
+          "type": "list",
+          "reading_order": 2,
+          "text": "我可以帮你：\n- 答疑解惑：寄存器、中断、串口、Keil 报错......随时问\n- 写代码：给出可直接编译的 Keil C51 例程\n- 指导仿真：Proteus 元件选型、接线、加载 hex",
+          "language": "zh"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 3,
+          "text": "试试问我：「流水灯怎么写？」「Keil 报错 C202 是什么意思？」「定时器中断怎么配置？」",
+          "language": "zh"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 4,
+          "text": "出错啦：Failed to fetch",
+          "language": "zh"
+        },
+        {
+          "type": "paragraph",
+          "reading_order": 5,
+          "text": "> 提示：本地开发需先运行 npm run server 启动后端，并在项目根目录配置 .env.local（参考 .env.local.example）。",
+          "language": "zh"
+        }
+      ]
+    },
+    "semantics": {
+      "scene": "chat interface",
+      "intent": "programming assistance",
+      "entities": [
+        {
+          "name": "芯师傅",
+          "type": "tutor",
+          "evidence": "chat interface"
+        },
+        {
+          "name": "单片机 AI 私教",
+          "type": "service",
+          "evidence": "chat interface"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "芯师傅",
+          "predicate": "provides",
+          "object": "programming assistance"
+        }
+      ]
+    },
+    "visual": {
+      "dominant_colors": [
+        "dark blue",
+        "white"
+      ],
+      "style": "modern digital interface",
+      "notes": []
+    },
+    "uncertainty": []
+  },
+  "meta": {
+    "generatedAt": "2026-09-08T13:57:04.646Z",
+    "model": "glm-4v-flash",
+    "conversationId": null,
+    "durationSeconds": 16.935,
+    "usage": {
+      "completion_tokens": 876,
+      "prompt_tokens": 4208,
+      "total_tokens": 5084
+    },
+    "attempts": [
+      {
+        "provider": "openai",
+        "ok": true,
+        "durationSeconds": 16.936
+      }
+    ],
+    "warnings": []
+  }
+}
